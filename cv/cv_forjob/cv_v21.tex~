@@ -1,0 +1,209 @@
+\documentclass[margin,line]{res}
+
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\usepackage{color}
+\usepackage[bookmarks=false]{hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+\begin{document}
+
+\name{Dingquan Wang \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2.5in}p{0.55in}p{2in}}
+Room 311, Yifu Building, & {\it Mobile:}& (86)15611728619 \\  
+Shanghai Jiao Tong University& {\it E-mail:}& wddabc@gmail.com\\
+NO.800, Dongchuan Ave, Minhang Dist & {\it Homepage:}& \href{http://apex.sjtu.edu.cn/apex\_wiki/dqwang}{http://apex.sjtu.edu.cn/apex\_wiki/dqwang}\\ 
+Shanghai, 200240, China & \\  
+\end{tabular}
+
+
+\section{\sc Research Interests}
+Information Retrieval, Data Mining, Machine Learning, Natural Language Processing, and Recommender Systems 
+\section{\sc Education}
+{\bf Shanghai Jiao Tong University}, Shanghai, China\\
+{\em Computer Science and Technology(ACM Honored Class)} 
+\vspace*{-.0in}
+\begin{list1}
+\item[] B.S., Engineering, July, 2011 
+\begin{list2}
+\vspace*{.05in}
+\item Dissertation Topic:  ``Intent Based Query Clustering on User Logs'' 
+\item Major GPA: 3.74/4.3
+\end{list2}
+\end{list1}
+\section{\sc Publications and Manuscripts}
+\textbf{Dingquan Wang}, Weinan Zhang, Gui-Rong Xue, and Yong Yu:
+Deep Classifier for Large Scale Hierarchical Text Classification,
+In\emph{ the 1st PASCAL Challenge on Large Scale Hierarchical Text Classification}
+
+Weinan Zhang, \textbf{Dingquan Wang}, Gui-Rong Xue, and Hongyuan Zha:
+Advertising Keywords Recommendation for Short-text Web Pages using Wikipedia,
+\emph{ACM Transactions on Intelligent Systems and Technology}, Recently accepted and pending for publish 
+
+\textbf{Dingquan Wang}, Ruihua Song, Jian-Yun Nie, and Ji-Rong Wen. From Queries to Intents: a Study of Search Logs
+, Manuscript for SIGIR 2012
+
+\section{\sc Honors and Awards} 
+Microsoft Excellent Internship Award, April,2011 \\
+Microsoft Young Fellowship Award(3/1000), May, 2010\\
+1st place in Task 2, PASCAL challenge: LSHTC\footnote {\href{http://lshtc.iit.demokritos.gr/}{Large Scale Hierarchical Text Classification}} , November, 2009 \\
+Excellent Academic Scholarship, Shanghai Jiao Tong University, Class B(Three times), 2007--2010\\
+Gold Medal of the 3rd Pan Pearl River Delta Physics Olympiad (5th place), 2007\\
+First prize of the province degree in the Chinese National Physics Olympiad (Twice), 2005, 2006 \\
+%\vspace*{-2.5mm}
+%NSF Vertical Integration of Research and Education in Statistics and
+%Mathematical Sciences\\ (VIGRE) teaching fellowship.
+%
+\vspace*{-2.5mm}
+
+\section{\sc Professional Experience}
+
+{\bf Full-time internship, Web Search Management Group, Microsoft Research Asia}
+\vspace*{0.1in}
+\begin{list1}
+\item[] Query clustering on user logs \hfill {\bf July, 2010 - February, 2011}\\
+\vspace*{-.1in}
+\begin{list2}
+\item I mainly work on query related project in MSRA.  I implement an efficient query clustering program. Query similarity is evaluated on three levels--lexical, syntactic and semantic level. Techniques such as NLP, SMT and hierarchical clustering are incorporated. 
+\end{list2}
+\vspace*{0.1in}
+\item[] Intent analysis and trends detection on query logs \hfill {\bf July, 2011 - September, 2011}\\
+\vspace*{-.1in}
+\begin{list2}
+\item Now I'm working on our paper ``From queries to intents: a study of search logs'' as SIGIR 2012 submission. 
+\end{list2}
+\end{list1}
+{\bf Shanghai Jiao Tong University}
+\begin{list1}
+\item[] Verifier: Chinese version of ``Foundations of Semantic Web Technologies'' \hfill {\bf Spring, 2011}\\
+\end{list1}
+\vspace*{-.1in}
+\begin{list1}
+\item[] Teaching Assistant: Computer Organization Lab., 08 ACM Honored Class. \hfill {\bf Spring, 2010}\\
+\end{list1}
+\section{\sc Academic Experience}
+{\bf Shanghai Jiao Tong University}
+\vspace*{-.1in}
+
+{\em Research Assistant, Apex Data\&Knowledge Management Lab.} \hfill {\bf June, 2009 - present}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Content and advertisement-sensitive PageRank for keywords recommendation, September, 2009--June, 2011
+\begin{list2}
+	\vspace*{.05in}
+\item Paper ``Advertising Keywords Recommendation on Short-text Web Pages using Wikipedia'' was accepted by ACM TIST, pending for publish.
+\end{list2}
+\item[] Query clustering by user intents, February, 2011--June, 2011
+\begin{list2}
+	\vspace*{.05in}
+\item Excellent dissertation ``Intent Based Query Clustering on User Logs'' with grade A.
+\end{list2}
+\item[] KDD Cup 2011, March, 2011--June, 2011
+\begin{list2}
+	\vspace*{.05in}
+\item Our team(InnerPeace) won the 3rd place on Track 1.
+\end{list2}
+\item[] Dragon Star Machine Learning Program Membership, 98/100 on final grade. August, 2010
+\item[] KDD Cup 2010, March, 2010--June, 2010
+ \begin{list2}
+	\vspace*{.05in}
+\item Score prediction on education data using collaborative filtering. 
+\end{list2}
+\item[] Restricted Boltzmann Machine for Collaborative Filtering. March, 2010--June, 2010
+\item[] Mining taxonomy information from DBpedia, March, 2010--June, 2010
+\item[] PASCAL challenge: LSHTC\footnote {\href{http://lshtc.iit.demokritos.gr/}{Large Scale Hierarchical Text Classification}}. July, 2009--November, 2009
+\begin{list2}
+	\vspace*{.05in}
+\item Implement a two-stage text classifier in this challenge. Achieve the 1st place on Task 2.
+\item Our paper ``Deep Classifier for Large Scale Hierarchical Text Classification'' was accepted by the challenge committee. 
+\end{list2}
+\end{list1}
+\vspace*{-.1in}
+
+{\em Undergraduate Student, ACM Honored Class} \hfill {\bf September, 2007 - July, 2011}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Principle and Practice of Computer Algorithm, Summer, 2008 
+  \begin{list2}
+	\vspace*{.05in}
+  \item Solve 4 chapters of algorithm problems on USACO\footnote {\href{http://train.usaco.org/usacogate}{USA Computing Olympiad}}. 
+\end{list2}
+\item[] Project Workshop of Complier Principles, Spring, 2009 
+  \begin{list2}
+	\vspace*{.05in}
+\item Implement a complier for Tiger programming language, with advanced optimization such as inline expansion
+,97/100 on finial grade. 
+\end{list2}
+\item[] Computer Organization Lab., Spring, 2009
+  \begin{list2}
+	\vspace*{.05in}
+  \item Implement a MIPS processor using SystemC simulation language, with 5-level pipeline, L2-cache and dynamic branch prediction
+,91/100 on finial grade.
+  \end{list2}
+\item[] Course Project of Information Retrieval, Spring, 2009
+  \begin{list2}
+	\vspace*{.05in}
+  \item Index building for Wikipedia 
+,90/100 on finial grade.
+  \end{list2}
+\item[] Project Workshop of Operating System, Fall, 2009
+  \begin{list2}
+	\vspace*{.05in}
+  \item Implement a Linux styled operating system called Nachos, with INode block indexing strategy in the file system 
+,95/100 on finial grade.
+  \end{list2}
+\item[] Project Workshop of Computer Network, Fall, 2009
+  \begin{list2}
+	\vspace*{.05in}
+  \item Simulate a computer network, with TCP/IP protocol and implement a immediate messenger based on this network
+,95/100 on finial grade.
+  \end{list2}
+\item[] Course Project of Object Oriented Programming, Fall, 2009
+  \begin{list2}
+	\vspace*{.05in}
+  \item Implement a online game called Laputa, using SSH web service organization 
+.I'm the group leader in this project. 
+  \end{list2}
+\item[] Project Workshop of Data Base Management System, Spring, 2010
+  \begin{list2}
+	\vspace*{.05in}
+  \item Implement the query processing end, with the optimization on query rewriting and index join
+,92/100 on finial grade.
+  \end{list2}
+\end{list1}
+\section{\sc Computer Skills} 
+\begin{list1}
+\item[] OS, Tools and IDEs: Linux, Latex, Gnuplot, Vim, Eclips
+\item[] Programming Skills:: C, C++, C\#, Java, Perl, JavaScript, JSP, XML, Bash, ASP.net, SystemC
+\end{list1}
+\end{resume}
+\end{document}
+
+
+
+
